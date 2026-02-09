@@ -27,7 +27,7 @@ install the newest stable version of LLVM first (for example, with
 `brew install llvm`), then install the linker with:
 
 ```console
-LLVM_SYS_180_PREFIX=$(brew --prefix llvm) cargo install \
+LLVM_SYS_190_PREFIX=$(brew --prefix llvm) cargo install \
     --no-default-features bpf-linker
 ```
 
